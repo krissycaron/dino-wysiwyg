@@ -22,5 +22,17 @@
 }*/
 
 
-#dinosaurs .row:nth-of-child(even) .dinoCard
+/*#dinosaurs .row:nth-of-child(even) .dinoCard*/
 
+/*Alternate Background Colors*/
+#dinosaurs .dinoCard {
+	background-color: lightblue;
+}
+
+#dinosaurs .row:nth-of-type(even) .dinoCard:nth-of-type(even) {
+	background-color: goldenrod;
+}
+
+#dinosaurs .row:nth-of-type(odd) .dinoCard:nth-of-type(odd) {
+	background-color: goldenrod;
+}
