@@ -1,0 +1,26 @@
+.dottedBorder {
+	border:2px dotted black;
+}
+/*alternate background colors */
+/*all direct discendence of the dinsoaur div >  */
+
+
+.dinoCard {
+	max-width: 30%;
+}
+.dinoCard img {
+	max-width: 100px;
+}
+
+/*#dinosaurs > .dinoCard:nth-of-type(2n){
+	background-color:goldenrod;
+}
+
+#dinosaurs > .dinoCard:nth-of-type(2n+1){
+	background-color: lightblue;
+
+}*/
+
+
+#dinosaurs .row:nth-of-child(even) .dinoCard
+
